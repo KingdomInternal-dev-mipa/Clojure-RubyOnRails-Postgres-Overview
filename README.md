@@ -1,34 +1,43 @@
 # Clojure-RubyOnRails-Postgres-Overview
 
+Current state / infra
+--
+
+
+
 Public endpoints
 --
-1. fjdksl
-
+   1. [Rails/Postgres] http://35.222.209.189:3000/api/v1/products
+   2. [Rails/Postgres] http://35.222.209.189:3000/api/v2/dog
+   3. [Rails/Postgres] http://35.222.209.189:3000/api/v2/person
+   4. [Clojrue/Reagent] http://35.222.209.189/
 
 Repos
 --
-1. fjdskl
-2. fjdksl
+1. FE _> https://github.com/SeduroDotCom/rubyOnRails
+2. BE _> https://github.com/SeduroDotCom/RailsWithPostgres
 
 ### FE / ClojureScript with reagent
-1. Repo _> 
+1. Repo _> https://github.com/SeduroDotCom/rubyOnRails
 2. Example
    ```bash
    ```
 
 ### BE / Rails with postgres
-1. Repo _> 
+1. Repo _> https://github.com/SeduroDotCom/RailsWithPostgres
 2. Setups
    1. Development (Mac/M1)
       1. Rails with Docker-Postgres
       2. Docker-Rails with Docker-Postgres
       3. Docker-Compose (Rails & Postgres)
    2. Public (GoogleCloud-Platform & ComputeInstance)
-      1. FE _> 
-      2. BE _> 
+      1. FE _> https://github.com/SeduroDotCom/rubyOnRails
+      2. BE _> https://github.com/SeduroDotCom/RailsWithPostgres
 3. POI's
    1. Seed.rb
-   2. 
+   2. Used libraries
+      1. bootstrap
+      2. reagent
 
 
 TODO
@@ -40,4 +49,5 @@ TODO
      2. E2E-Test / Visual-Test
      3. Release deployment by commitHash
 3. Backup / Restore
+4. Cleanup namings
    
