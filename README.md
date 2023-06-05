@@ -33,7 +33,31 @@ Repos
    2. Public (GoogleCloud-Platform & ComputeInstance)
       1. FE _> https://github.com/SeduroDotCom/rubyOnRails
       2. BE _> https://github.com/SeduroDotCom/RailsWithPostgres
-3. POI's
+3. Endpoints / Szenarios
+   1. Project (all, ..)
+   2. Person & Dogs Mapping
+      1. Person
+      2. Dog
+      3. POST both by `create_people_and_dogs`-endpoint
+         ```bash
+         curl --location 'http://localhost:3000/api/create_people_and_dogs' \
+            --header 'Content-Type: application/json' \
+            --data '{
+              "people": [
+                {
+                  "name": "John",
+                  "surname": "Doe",
+                  "dog_race": "Labrador"
+                },
+                {
+                  "name": "Jane",
+                  "surname": "Smith",
+                  "dog_race": "Poodle"
+                }
+              ]
+            }'
+         ```
+4. POI's
    1. Seed.rb
    2. Used libraries
       1. bootstrap
