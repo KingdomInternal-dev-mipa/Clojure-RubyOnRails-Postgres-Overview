@@ -2,7 +2,7 @@
 
 Current state / infra
 --
-
+![](currentStateGcp.svg)
 
 
 Public endpoints
