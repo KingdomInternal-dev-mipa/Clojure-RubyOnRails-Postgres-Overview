@@ -74,4 +74,7 @@ TODO
      3. Release deployment by commitHash
 3. Backup / Restore
 4. Cleanup namings
+5. Required tools
+   1. https://rspec.info/
+   2. https://cucumber.io/
    
