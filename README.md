@@ -19,13 +19,15 @@ Repos
 
 ### FE / ClojureScript with reagent
 1. Repo _> https://github.com/SeduroDotCom/rubyOnRails
-2. Example
+2. Setup workflow
+3. Example
    ```bash
    ```
 
 ### BE / Rails with postgres
 1. Repo _> https://github.com/SeduroDotCom/RailsWithPostgres
-2. Setups
+2. Setup workflow
+3. Setups
    1. Development (Mac/M1)
       1. Rails with Docker-Postgres
       2. Docker-Rails with Docker-Postgres
@@ -33,7 +35,7 @@ Repos
    2. Public (GoogleCloud-Platform & ComputeInstance)
       1. FE _> https://github.com/SeduroDotCom/rubyOnRails
       2. BE _> https://github.com/SeduroDotCom/RailsWithPostgres
-3. Endpoints / Szenarios
+4. Endpoints / Szenarios
    1. Project (all, ..)
    2. Person & Dogs Mapping
       1. Person
@@ -57,7 +59,7 @@ Repos
               ]
             }'
          ```
-4. POI's
+5. POI's
    1. Seed.rb
    2. Used libraries
       1. bootstrap
