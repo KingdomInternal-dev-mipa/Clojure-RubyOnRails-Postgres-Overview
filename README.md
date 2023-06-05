@@ -1,5 +1,4 @@
-# 
-jure-RubyOnRails-Postgres-Overview
+# Clojure-RubyOnRails-Postgres-Overview
 
 Current state / infra
 --
