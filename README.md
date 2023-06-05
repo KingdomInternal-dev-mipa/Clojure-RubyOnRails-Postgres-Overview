@@ -1,4 +1,5 @@
-# Clojure-RubyOnRails-Postgres-Overview
+# 
+jure-RubyOnRails-Postgres-Overview
 
 Current state / infra
 --
@@ -10,7 +11,7 @@ Public endpoints
    1. [Rails/Postgres] http://35.222.209.189:3000/api/v1/products
    2. [Rails/Postgres] http://35.222.209.189:3000/api/v2/dog
    3. [Rails/Postgres] http://35.222.209.189:3000/api/v2/person
-   4. [Clojrue/Reagent] http://35.222.209.189/
+   4. [Clojure/Reagent] http://35.222.209.189/
 
 Repos
 --
