@@ -78,6 +78,10 @@ Repos
       2. reagent
 
 
+<details>
+<summary><b>TODO's</b></summary>
+
+
 TODO
 --
 1. Setup for GCP-VM-Instance & K8s
@@ -93,4 +97,10 @@ TODO
    2. https://cucumber.io/
 6. Tools
    1. https://app.diagrams.net/#
+
+   
+</details>
+
+
+
    
