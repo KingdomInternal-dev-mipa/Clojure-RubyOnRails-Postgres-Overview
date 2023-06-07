@@ -25,10 +25,10 @@ Repos
    brew install clojure/tools/clojure
    webpack webpack-cli axios bootstrap
    
-  org.clojure/clojurescript {:mvn/version "1.10.844"}
-  com.bhauman/figwheel-main {:mvn/version "0.2.18"}
-  reagent                   {:mvn/version "1.2.0"}
-  cljs-ajax/cljs-ajax       {:mvn/version "0.8.4"}
+   org.clojure/clojurescript {:mvn/version "1.10.844"}
+   com.bhauman/figwheel-main {:mvn/version "0.2.18"}
+   reagent                   {:mvn/version "1.2.0"}
+   cljs-ajax/cljs-ajax       {:mvn/version "0.8.4"}
    ```
 
 ### BE / Rails with postgres
@@ -42,6 +42,11 @@ Repos
    2. Public (GoogleCloud-Platform & ComputeInstance)
       1. FE _> https://github.com/SeduroDotCom/rubyOnRails
       2. BE _> https://github.com/SeduroDotCom/RailsWithPostgres
+   3. Deps
+      ```
+      gem 'rack-cors'
+      gem 'faker'
+      ```
 4. Endpoints / Szenarios
    1. Project (all, ..)
    2. Person & Dogs Mapping
